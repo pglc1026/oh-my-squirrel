@@ -1,11 +1,15 @@
 __build_info:
-  rime_version: 1.3.2
+  rime_version: 1.5.3
   timestamps:
-    default: 1546351151
+    default: 1561294610
     default.custom: 0
+    key_bindings: 1561294610
+    key_bindings.custom: 0
     luna_pinyin.custom: 0
-    luna_pinyin.schema: 1546351151
-    symbols: 1480172145
+    luna_pinyin.schema: 1561294610
+    punctuation: 1561294610
+    punctuation.custom: 0
+    symbols: 1578148926
     symbols.custom: 0
 custom_phrase:
   db_class: stabledb
@@ -36,6 +40,7 @@ engine:
   translators:
     - punct_translator
     - "table_translator@custom_phrase"
+    - reverse_lookup_translator
     - script_translator
 key_binder:
   bindings:
@@ -69,8 +74,6 @@ key_binder:
     - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
     - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
     - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
-    - {accept: "Shift+space", toggle: full_shape, when: always}
-    - {accept: "Control+period", toggle: ascii_punct, when: always}
   import_preset: default
 menu:
   page_size: 5
@@ -289,6 +292,8 @@ reverse_lookup:
 schema:
   author:
     - "佛振 <chen.sst@gmail.com>"
+  dependencies:
+    - stroke
   description: |
     Rime 預設的拼音輸入方案。
     參考以下作品而創作：
@@ -299,7 +304,7 @@ schema:
     
   name: "朙月拼音"
   schema_id: luna_pinyin
-  version: 0.24.minimal
+  version: 0.24
 speller:
   algebra:
     - "erase/^xx$/"
