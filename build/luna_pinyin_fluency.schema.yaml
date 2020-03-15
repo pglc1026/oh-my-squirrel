@@ -9,7 +9,7 @@ __build_info:
     luna_pinyin_fluency.schema: 1561294610
     punctuation: 1561294610
     punctuation.custom: 0
-    symbols: 1578148926
+    symbols: 1584273295
     symbols.custom: 0
 custom_phrase:
   db_class: stabledb
