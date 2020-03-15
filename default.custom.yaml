@@ -9,8 +9,8 @@ patch:
     - ascii_punct
     - simplification
     # - zh_hans
-     - emoji_suggestion
-  menu/page_size: 5
+    # - emoji_suggestion
+  menu/page_size: 3
   ascii_composer:
     good_old_caps_lock: false
     switch_key:
@@ -18,7 +18,7 @@ patch:
       Shift_R: noop
       Control_L: noop
       Control_R: noop
-      Caps_Lock: noop
+      Caps_Lock: commit_code
       Eisu_toggle: clear
   key_binder/bindings:
     - {accept: "Control+p", send: Up, when: composing}
@@ -53,5 +53,5 @@ patch:
     # - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
     # - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
     # - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
-    - {accept: "Shift+space", toggle: ascii_mode, when: always}
+    # - {accept: "Shift+space", toggle: full_shape, when: always}
     # - {accept: "Control+period", toggle: ascii_punct, when: always}

@@ -26,11 +26,10 @@ Rime	rime	3
 ⇧	shift
 GBK	gbk
 UTF-8	utfba
-macOS	macos	6
-macOS Mojave	macos	3
 macOS High Sierra	macos	2
+macOS Mojave	macos	3
+macOS	macos	4
 macOS Sierra	macos	1
-macOS Catalina	macos	5
 Google Analytics	ga
 CSS	css
 HTML html

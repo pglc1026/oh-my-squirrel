@@ -2,10 +2,10 @@ __build_info:
   rime_version: 1.5.3
   timestamps:
     default: 1561294610
-    default.custom: 1584283664
+    default.custom: 1584289798
     key_bindings: 1561294610
     key_bindings.custom: 0
-    luna_pinyin.custom: 1584276910
+    luna_pinyin.custom: 1584289798
     luna_pinyin.schema: 1561294610
     punctuation: 1561294610
     punctuation.custom: 0
@@ -61,10 +61,9 @@ key_binder:
     - {accept: Tab, send: Page_Down, when: composing}
     - {accept: minus, send: Page_Up, when: has_menu}
     - {accept: equal, send: Page_Down, when: has_menu}
-    - {accept: "Shift+space", toggle: ascii_mode, when: always}
   import_preset: default
 menu:
-  page_size: 5
+  page_size: 3
 punctuator:
   full_shape:
     " ": {commit: "　"}
