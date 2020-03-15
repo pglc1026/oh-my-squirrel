@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.5.3
   timestamps:
     default: 1561294610
-    default.custom: 1584289798
+    default.custom: 1584290063
     key_bindings: 1561294610
     key_bindings.custom: 0
     luna_pinyin.custom: 1584289798
@@ -63,7 +63,7 @@ key_binder:
     - {accept: equal, send: Page_Down, when: has_menu}
   import_preset: default
 menu:
-  page_size: 3
+  page_size: 5
 punctuator:
   full_shape:
     " ": {commit: "　"}

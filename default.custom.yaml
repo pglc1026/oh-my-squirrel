@@ -10,7 +10,7 @@ patch:
     - simplification
     # - zh_hans
     # - emoji_suggestion
-  menu/page_size: 3
+  menu/page_size: 5
   ascii_composer:
     good_old_caps_lock: false
     switch_key:
