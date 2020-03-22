@@ -9,14 +9,15 @@ patch:
       alpha: 0.9
       horizontal: true
       inline_preedit: true
-      candidate_format: "%c %@ "
+      candidate_format: "%c\u2005%@"
+      #candidate_format: "%c %@ "
       corner_radius: 5
-      hilited_corner_radius: 0
+      hilited_corner_radius: 3
       border_height: 6
-      border_width: 12
+      border_width: 6
       border_color_width: 0
       font_face: PingFangSC
-      font_point: 17
+      font_point: 16
       label_font_point: 12
       text_color: 0xffffff
       back_color: 0x1e1e1e
@@ -26,7 +27,7 @@ patch:
       hilited_text_color: 0xffffff
       hilited_back_color: 0x1e1e1e
       hilited_candidate_text_color: 0xffffff
-      # hilited_candidate_back_color: 0xcb5d00
+      hilited_candidate_back_color: 0xcb5d00
       hilited_candidate_label_color: 0x888785
       comment_text_color: 0xdedddd
 
