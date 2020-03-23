@@ -85,7 +85,7 @@ patch:
       url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]{1,11}[.:_-].*$"
 
   ### 精简 simp
-  translator/dictionary: luna_pinyin
+  translator/dictionary: luna_pinyin.extended
   translator/preedit_format: {}
   # translator/enable_correction: true
 
