@@ -3,7 +3,7 @@ patch:
     - schema: double_pinyin_flypy
     - schema: luna_pinyin
   switcher/hotkeys:
-    - F4
+    - Control+grave
   switcher/save_options:
     - full_shape
     - ascii_punct
